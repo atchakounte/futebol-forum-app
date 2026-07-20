@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Topic Answer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container py-5">
+    <h1 class="mb-4">✍️ Submit a Topic Answer</h1>
+    <form action="/answer" method="POST" class="mb-4">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name:</label>
+        <input type="text" name="name" , class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label for="topic" class="form-label">Topic Subject:</label>
+        <input type="text" name="topic" , class="form-control" required />
+      </div>
+
+      <div class="mb-3">
+        <label for="question" class="form-label">Your Topic Answer:</label>
+        <textarea
+          name="answer"
+          class="form-control"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit Topic Answer</button>
+    </form>
+    <a href="/" class="btn btn-secondary">👈 🔙 Back to Home</a>
+  </body>
+</html>
