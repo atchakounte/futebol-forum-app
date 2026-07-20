@@ -38,6 +38,7 @@ From the technical side:
 
 ## TODO
 
+- Create data layer using a database management system
 - The main page contains the title of the app, displays your username, and a Logout link. The Logout link transfers you back to the Login page.
 - On the left, there is a menu of the existing categories. If there are more categories than what fits on
 - pon selecting a category, the ”Select a Category to view its questions” area is replaced by
